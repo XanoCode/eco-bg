@@ -63,3 +63,23 @@ main {
     margin-left: 10px;
     color: #2ecc71;
 }
+
+@media (max-width: 768px) {
+    .produit {
+        width: 80px;
+        padding: 10px;
+        padding-bottom: 3px;
+    }
+
+    .produit img {
+        width: 75px;
+    }
+
+    .produit p {
+        font-size: 8px;
+    }
+
+    .produit .prix {
+        font-size: 10px;
+    }
+}
