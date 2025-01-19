@@ -1,10 +1,12 @@
 body {
     margin: 0px;
     padding: 0px;
+    height: 200vh;
 
     font-family: sans-serif;
 
-    background-image: url("../assets/bg.png")
+    background-image: url("../assets/bg.png");
+    background-attachment: fixed;
 }
 
 main {
