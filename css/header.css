@@ -1,0 +1,52 @@
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    margin: 20px;
+    margin-bottom: 50px;
+
+    height: 100px;
+    max-height: 100px;
+    
+    border-radius: 25px;
+
+    background-color: #252325;
+    box-shadow: 0 5px 5px rgba(0, 0, 0, 0.5);
+}
+
+header .logo {
+    max-height: 50px;
+    width: auto;
+
+    padding-left: 10px;
+}
+
+#search {
+    width: 40vw;
+    padding: 8px 15px;
+
+    border: none;
+    border-radius: 10px;
+    font-size: 16px;
+
+    background-color: #fff;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+/* width .logo = 129, .menu = 20 + font-size = 28 + 91 pour 129*/
+.menu {
+    display: flex;
+
+    padding-right: 20px;
+    padding-left: 91px; /*Pour avoir la même largeur que le logo*/
+
+    font-size: 30px;
+}
+
+@media screen and (max-width: 640px) {
+    header .logo {
+        height: 25px;
+        width: auto;
+    }
+}
